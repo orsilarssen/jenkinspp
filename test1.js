@@ -1,8 +1,6 @@
-/*Anagram
-Create a function that takes two strings, and returns a boolean that should be 
-True if the strings are anagrams and False otherwise.*/
-
 'use strict';
+
+let test = require('tape');
 
 function checkAnagram(string1,string2){
   let word1 = string1.split('').sort().join('');
@@ -15,4 +13,13 @@ function checkAnagram(string1,string2){
   }
 };
 
-checkAnagram();
+test('firstcase', function(t){
+  let string1 = 'stressed';
+  let string2 = 'desserts';
+
+  let actual = checkAnagram(string1,string2);
+  let expected = true;
+
+  t.equal(actual, expected);
+  t.end();
+});
