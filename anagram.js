@@ -15,4 +15,4 @@ function checkAnagram(string1,string2){
   }
 };
 
-checkAnagram();
+checkAnagram('malna','manla');
