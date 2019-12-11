@@ -1,0 +1,25 @@
+{
+  "name": "jenkinspp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "anagram.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "tape": "^4.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node anagram.js",
+    "test": "node test1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orsilarssen/jenkinspp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orsilarssen/jenkinspp/issues"
+  },
+  "homepage": "https://github.com/orsilarssen/jenkinspp#readme"
+}
