@@ -23,3 +23,25 @@ test('firstcase', function(t){
   t.equal(actual, expected);
   t.end();
 });
+
+test('secondcase', function(t){
+  let string1 = 'stressed';
+  let string2 = 'dessrerts';
+
+  let actual = checkAnagram(string1,string2);
+  let expected = false;
+
+  t.equal(actual, expected);
+  t.end();
+});
+
+test('secondcase', function(t){
+  let string1 = 'hello';
+  let string2 = 'hi';
+
+  let actual = checkAnagram(string1,string2);
+  let expected = false;
+
+  t.equal(actual, expected);
+  t.end();
+});

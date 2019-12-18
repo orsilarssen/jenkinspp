@@ -18,7 +18,7 @@ test('secondcase', function(t){
   let string2 = 'hi';
 
   let actual = checkAnagram(string1,string2);
-  let expected = true;
+  let expected = false;
 
   t.equal(actual, expected);
   t.end();
