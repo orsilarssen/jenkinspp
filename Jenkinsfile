@@ -13,6 +13,7 @@ pipeline {
             steps {
                 sh 'npm install'
                 sh 'node test1.js'
+                sh 'node anagram.js'
             }
         }
         stage('Test') {
